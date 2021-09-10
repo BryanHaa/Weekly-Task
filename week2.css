@@ -1,0 +1,42 @@
+header {
+  background-color: #66FFFF;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+
+nav {
+  float: right;
+  display: block;
+  width: 25%;
+  background-color: #33FFFF;
+  padding: 20px;
+  height: 300px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav input[type:text] {
+  float: left;
+  padding: 3px;
+  margin-top: 8px;
+  margin-left: 10px;
+  border: none;
+  font-size: 20px;
+}
+
+main {
+  float: left;
+  width: 75%;
+  background-color: #66B2FF;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}

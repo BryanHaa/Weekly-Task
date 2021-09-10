@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    form {
+      font-size: 100%;
+      border: 3px solid black;
+
+    }
+
+  </style>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <script src='week1.js'></script>
+  </head>
+
+  <body>
+
+    <h1 onclick="truth()">
+      Today's lesson was FUN!--CLICK ME
+    </h1>
+    <p style="color:blue;">
+      We learned three languages that are needed for buiding website. They are:
+    </p>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+    </ul>
+    <table>
+      <tr>
+        <th>Time</th>
+        <th>Tasks</th>
+      </tr>
+      <tr>
+        <td>10 Mins</td>
+        <td>Task 1</td>
+      </tr>
+      <tr>
+        <td>15 Mins</td>
+        <td>Tasks 2</td>
+      </tr>
+      <tr>
+        <td>15 Mins</td>
+        <td>Tasks 3</td>
+      </tr>
+    </table>
+    <p>Do you like this unit?</p>
+    <form action="#">
+      <input type="checkbox" id="answer1" name="yes" onclick="haha()">
+      <label for="answer1">Yes</label> <br>
+      <input type="checkbox" id="answer2" name="no" onclick="not()">
+      <label for="answer2">No</label><br>
+    </form>
+    <p style="font-size:40px">
+      &#128513; &#128513; &#128513;
+    </p>
+
+   
+
+  </body>
+
+</html>

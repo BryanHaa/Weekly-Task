@@ -1,0 +1,21 @@
+h1 {
+  color: red;
+  font-size: 30px;
+}
+
+table {
+  font-family: serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid;
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+  background-color: white;
+}
